@@ -1,0 +1,85 @@
+@import url(../css/normalize.css);
+@import url(../css/fonts.css);
+@import url(../css/variables.css);
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--purple100);
+    background-image: url(../assets/images/background-pattern-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding: 20px;
+    gap: 30px;
+    border-radius: 10px;
+    background-color: var(--white)
+}
+
+.faq {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.star-icon {
+    width: 30px;
+    height: 30px;
+    background-image: url(../assets/images/icon-star.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.answer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    background-image: url(../assets/images/icon-plus.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.faq-line {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+    font-weight: 700;
+    color: var(--purple950)
+}
+
+h2 {
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--purple950)
+}
+
+p {
+    display: none;
+    font-weight: 400;
+    color: var(--purple600)
+}
+
+.line {
+    width: 500px;
+    height: 1px;
+    background-color: var(--purple100);
+}
